@@ -2,6 +2,8 @@
 
 This repository contains the quantitative research project, time-series forecasting engine, and interactive dashboard built for the IIT Guwahati Consulting & Analytics Club. It uses an ensemble of ARIMA, Prophet, XGBoost, and LSTM to forecast stock momentum, applying a Volatility-Aware SciPy SLSQP optimizer to allocate capital.
 
+> **📄 Official Project Submission:** The complete, institutional-grade academic report is available in the repository as [`FINAL_IITG_CAPSTONE_REPORT.pdf`](FINAL_IITG_CAPSTONE_REPORT.pdf).
+
 ## Project Structure
 - `TSA2026_Capstone_IITGuw.ipynb`: The core Jupyter Notebook containing the data pipeline, feature engineering (Weak Signal Engine), forecasting architectures, and the SciPy portfolio optimization.
 - `app.py`: The interactive Streamlit dashboard for live portfolio tracking, visualization, and execution analytics.
